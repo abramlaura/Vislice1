@@ -1,3 +1,3 @@
-Jurij Vega
-Ivan Vidav
-Matija Pretnar
+# Vislice1
+
+To so moje vislice
