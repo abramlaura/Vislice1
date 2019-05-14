@@ -64,5 +64,3 @@ class Igra:
                 return PRAVILNA_CRKA
                 elif velika_crka in self.napacne_crke():
                     return NAPACNA_CRKA
-    
-    FDF
