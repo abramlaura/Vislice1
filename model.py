@@ -64,3 +64,13 @@ class Igra:
                 return PRAVILNA_CRKA
                 elif velika_crka in self.napacne_crke():
                     return NAPACNA_CRKA
+
+bazen_besed = []
+with open('besede') as f:
+    for vrstica in f:
+        bazen_besed(vrstica.strip)
+
+def nova_igra():
+    import random
+    izbrana_beseda = random.choice(bazen_besed):
+    return Igra(izbrana_beseda)  #to je ime našega razreda
