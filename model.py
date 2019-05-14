@@ -65,3 +65,4 @@ class Igra:
                 elif velika_crka in self.napacne_crke():
                     return NAPACNA_CRKA
     
+    FDF
