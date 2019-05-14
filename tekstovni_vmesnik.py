@@ -6,7 +6,7 @@ Napacne crke : {napacne_crke}
 Ugibaš še : {število} -krat.
 ==============================================""".format(
     geslo=igra.pravilni_del_gesla(),
-    crke=igra.nepravilni_ugibi()
+    crke=igra.nepravilni_ugibi(),
     stevilo=model.STEVILO_DOVOLJENIH_NAPAK - igra.stevilo_napak())
 
 
